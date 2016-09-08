@@ -1,0 +1,90 @@
+.container{
+    width: auto;
+
+}
+.main_container{
+	margin-top: 5%;
+	    margin-left: 10%;
+    margin-right: 9%;
+}
+div.after_first_container{
+	margin-top: 0;
+
+}
+.navbar-header{
+	margin-left: 10%;
+}
+.navbar-right{
+	margin-right: 10%;
+}
+.float-right{
+	float: right;
+}
+
+/* Dashboard */
+.edit_info, .edit_description {
+    margin-top: 3%;
+}
+.container div.edit_info{
+	border:	.2em solid black;
+    padding: 7%;
+}
+div h4#info, h4#change_password, h4#description{    
+    margin-top: -10%;
+    background: white;
+    padding: .1em;
+}
+div h4#info{
+	width: 8em;
+}
+div h4#change_password{
+	width: 9em;
+}
+div h4#description{
+	width: 8em;
+    margin-top: -9%;
+}
+div.edit_description{
+	padding: 8em 3em;
+	border:	.2em solid black;
+}
+div.edit_description textarea{
+	margin-top: 1em;
+	width: 100%;
+	height: 10em;
+}
+
+/* END DASHBOARD*/
+
+/* THE WALL */
+div.message{
+	margin-top: 5em;
+}
+.message_box{
+	width: 100%;
+	height: 5em;
+}
+.comment_box{
+	width: 100%;
+	height: 4em;
+}
+.message_section{
+	border:	.1em solid black;
+	padding: 1em;
+}
+div.comments{
+	margin-left: 3em;
+}
+.date-right{
+	float: right !important;
+}
+/* FORM STYLE */
+form p, .error{
+	color: red;
+}
+table{
+	margin-top: 3em;
+}
+.success{
+	color: green;
+}
